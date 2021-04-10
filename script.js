@@ -35,11 +35,11 @@ function exit(){
     document.exitFullscreen();
 }
 
-// document.addEventListener("keypress", function(event) {
-//     if (event.target.value != " ") {
-//       alert('Invalid');
-//     }else{
-//         alert('Cool');
-//     }
-//   });
+document.addEventListener("keypress", function(event) {
+    if (event.target.value != " ") {
+      alert('Invalid');
+    }else{
+        alert('Cool');
+    }
+  });
 
