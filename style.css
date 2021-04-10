@@ -1,0 +1,37 @@
+div.one {
+    background-color : red;
+    height: 100px;
+    width: 100px;
+}
+
+div.one:hover {
+    background-color : whitesmoke;
+}
+
+#twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 700px;
+    background-color: aqua;
+}
+
+#inner_twitter{
+    height: 250px;
+    width: 550px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+#msg{
+    width: 99%;
+    height: 99%;
+    background-color: whitesmoke;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: blueviolet;
+}
